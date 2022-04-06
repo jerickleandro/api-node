@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/server.js"
+    "start": "node ./bin/server.js",
+    "test": "nodemon ./bin/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "debug": "^4.3.3",
     "express": "^4.17.3",
     "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
